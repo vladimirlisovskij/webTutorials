@@ -1,0 +1,396 @@
+/*Ссылка на шрифты кроме основного 'https://fonts.googleapis.com/css?family=Farsan|Hind+Siliguri|Racing+Sans+One|Six+Caps|Space+Mono:700'*/
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v8/VEMwRoJ0vY_zsyzKxqWo9DU.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0A80-0AFF, U+200C-200D, U+20B9, U+25CC, U+A830-A839;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v8/VEMwRoJ0vY_zsyzK0qWo9DU.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v8/VEMwRoJ0vY_zsyzK06Wo9DU.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Farsan';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/farsan/v8/VEMwRoJ0vY_zsyzK3aWo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* bengali */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/hindsiliguri/v7/ijwTs5juQtsyLLR5jN4cxBEoTI7ax9k0.woff2) format('woff2');
+    unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/hindsiliguri/v7/ijwTs5juQtsyLLR5jN4cxBEoTJLax9k0.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/hindsiliguri/v7/ijwTs5juQtsyLLR5jN4cxBEoTJzaxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/racingsansone/v8/sykr-yRtm7EvTrXNxkv5jfKKyDCAJnDnapI.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Racing Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/racingsansone/v8/sykr-yRtm7EvTrXNxkv5jfKKyDCAKHDn.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Six Caps';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/sixcaps/v11/6ae_4KGrU7VR7bNmaYcV_3Q.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dMIFZifjKcF5UAWdDRaPpZUFqaHjyV.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dMIFZifjKcF5UAWdDRaPpZUFuaHjyV.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Old newspaper font";
+    src: url("//db.onlinewebfonts.com/t/94d0c168186efde5fbe01b186e80e27e.eot");
+    src: url("//db.onlinewebfonts.com/t/94d0c168186efde5fbe01b186e80e27e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/94d0c168186efde5fbe01b186e80e27e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/94d0c168186efde5fbe01b186e80e27e.woff") format("woff"), url("//db.onlinewebfonts.com/t/94d0c168186efde5fbe01b186e80e27e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/94d0c168186efde5fbe01b186e80e27e.svg#Old newspaper font") format("svg");
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clear-fix:after {
+    display: table;
+    clear: both;
+
+    content: '';
+}
+
+/*––––––––––––––––––Шапка газеты––––––––––––––––––––*/
+.header {
+    margin: 35px 0 25px;
+}
+
+.header__info {
+    float: left;
+
+    box-sizing: border-box;
+    width: 200px;
+    padding: 25px 10px;
+
+    text-align: center;
+    font-size: medium;
+
+    border: 1px solid;
+}
+
+.header__weather {
+    float: right;
+
+    width: 200px;
+}
+
+.header__weather-title {
+    text-align: center;
+    font: 1.7rem "Space Mono", bold monospace;
+    margin: 0;
+}
+
+.header__weather-text {
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 0.8;
+    margin: 0;
+}
+
+.header__title {
+    text-align: center;
+    overflow: visible;
+    font: 5rem "Old newspaper font", sans-serif ;
+    margin: 0;
+}
+
+
+/*––––––––––––––––––Подшапка газеты–––––––––––––––––*/
+.sub-header {
+    padding: 5px 0;
+
+    font-size: 0.6rem;
+
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+}
+
+.sub-header__copyright {
+    display: inline-block;
+
+    margin: 0 30px;
+}
+
+.sub-header__price {
+    float: right;
+}
+
+
+/*––––––––––––––––––Основной контент––––––––––––––––*/
+.content {
+    display: flex;
+}
+
+/*––––––––––––––––––Блок статьи–––––––––––––––––––––*/
+.article__title {
+    font: 3.2rem "Six Caps", bold, sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.article__help {
+    margin-top: 10px !important;
+    margin-bottom: 4px !important;
+}
+
+
+.article__add-text {
+    text-align: justify;
+    text-indent: 1.6rem;
+    font-style: oblique;
+
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.article__add-text > strong {
+    font-weight: bold;
+}
+
+.article__author {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.article__content {
+    text-align: justify;
+    font-size: 0.8rem;
+    text-indent: 1.6rem;
+}
+
+.article__image-caption {
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.article__content__column {
+    text-align: justify;
+    font-size: 0.8rem;
+    text-indent: 1.6rem;
+    column-count: 2;
+    column-gap: 15px;
+}
+
+.article__continue {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    display: block;
+}
+
+.article__image {
+    margin: 0;
+    text-indent: 0;
+}
+
+.article__image.article__image_align_right {
+    float: right;
+
+    margin: 10px 0 5px 10px;
+}
+
+.article__subtitle {
+    text-align: center;
+    font: 1.7rem "Times New Roman", bold;
+    margin: 10px 0;
+}
+
+/*––––––––––––––––––Блок главной фотографии–––––––––*/
+.main-photo__wrapper {
+    margin: 0;
+}
+
+.main-photo__img {
+    width: 100%;
+}
+
+.main-photo__caption {
+    text-align: right;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+}
+
+.main-photo__title {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.main-photo__desc {
+    margin-bottom: 20px;
+}
+
+/*––––––––––––––––––Линия разделения––––––––––––––––*/
+.line {
+    border-top: 1px solid #000;
+}
+
+.line.line_type_bold {
+    margin-bottom: 3px;
+
+    border-width: 2px;
+}
+
+.line.line_type_short {
+    width: 70px;
+    margin: 0 auto;
+}
+
+/*––––––––––––––––––Центральные колонки газеты––––––––––––––––––*/
+.multicolumn {
+    margin-top: 10px;
+}
+
+.multicolumn__right,
+.multicolumn__left {
+    display: inline-block;
+
+    box-sizing: border-box;
+    width: 49%;
+
+    vertical-align: top;
+
+}
+
+.multicolumn__right {
+    padding-left: 10px;
+}
+
+.multicolumn__left {
+    padding-right: 10px;
+
+    border-right: 1px solid #000;
+}
+
+.multicolumn .line_type_short {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.multicolumn .article__title {
+    margin: 10px 0 0 0;
+}
+
+.article__title_font_racing {
+    font: 2rem "Racing Sans One", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.article__title_font_farsan {
+    font: 2.3rem "Farsan", sans-serif;
+    font-weight: bold;
+}
+
+.center-column {
+    margin-top: 20px;
+    padding: 0 10px;
+
+    flex-grow: 2;
+}
+
+/*––––––––––––––––––Второстепенные колонки газеты––––––––––––––––––*/
+.left-column {
+    border-right: 1px solid #000;
+}
+
+.right-column {
+    border-left: 1px solid #000;
+}
+
+.right-column,
+.left-column {
+    box-sizing: border-box;
+    width: 200px;
+    margin-top: 20px;
+    padding: 0 10px;
+
+    flex-shrink: 0;
+}
+
+/*––––––––––––––––––––––––––––––––––––––––––––––––––*/
