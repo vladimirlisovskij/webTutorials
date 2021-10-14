@@ -1,0 +1,47 @@
+.item {
+    margin: 10px;
+}
+
+.item .item_description {
+    text-align: justify;
+}
+
+.item .item_price, .item h2 {
+    text-align: left;
+}
+
+.item img:hover {
+    opacity: 0.7;
+}
+
+.item img:hover, .item .item_properties h2:hover {
+    color: red;
+    opacity: 0.7;
+}
+
+.stars {
+    text-align: left;
+    direction: rtl;
+}
+.stars > span {
+    display:inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.stars > span:hover:before,
+.stars > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+#list:checked ~ .shop .item {
+    display: inline-block;
+    width: 350px;
+}
+
+#table:checked ~ .shop .item .inner_item
+{
+    max-width: 33%;
+    display: inline-block;
+}
+

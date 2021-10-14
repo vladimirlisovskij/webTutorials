@@ -1,0 +1,104 @@
+.item:hover  * {
+    display: block;
+    z-index: 2;
+}
+
+.item:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 2;
+    margin-left: -100px;
+    margin-right: -100px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.window:target .close {
+    display: block;
+}
+
+.window:target img {
+    width: 900px;
+    height: 900px;
+}
+
+
+.window:target {
+    padding-left: 25%;
+    padding-right: 25%;
+    display: block;
+}
+
+.window:target ~ .shop {
+    display: none;
+}
+
+.item {
+    margin-top: 10px;
+    vertical-align: top;
+    background: white;
+    width: 200px;
+    display: none;
+    position: relative;
+    z-index: 0;
+}
+
+.item .close {
+    display: none;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+}
+
+.item p {
+    display: none;
+}
+
+.shop_content {
+    display: block;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    width: 900px;
+}
+
+.window {
+    display: none;
+}
+
+#radio1:checked ~ .shop_content .per1 {
+    display: inline-block;
+}
+
+#radio2:checked ~ .shop_content .per2 {
+    display: inline-block;
+}
+
+#radio3:checked ~ .shop_content .per3 {
+    display: inline-block;
+}
+
+#radio1 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 480px;
+}
+
+#radio2 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+
+#radio3 {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 520px;
+}
+
+.X {
+    position: absolute;
+    margin-left: 920px;
+}
+
